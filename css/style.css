@@ -19,7 +19,7 @@
 /* parte header */
 
 header{
-  height: 60px;
+  height: 80px;
   /* debug */
   background-color: pink;
 }
@@ -40,7 +40,7 @@ main{
 
 }
 
-.sezione1{
+.sezionet{
   margin-bottom: 10px;
   margin-top: 20px;
   width: 100%;
@@ -59,24 +59,13 @@ main{
 }
 
 .sezione3{
-  width: 45%;
-  margin: 0 11px;
   float: left;
+  width: calc(50% - 20px);
+  margin: 0 10px;
   /* debug */
-  background-color: skyblue;
+  background-color: orange;
   height: 250px;
 }
-
-.sezione4{
-  width: 25%;
-  margin: auto;
-  float: left;
-  /* debug */
-  background-color: skyblue;
-  height: 250px;
-}
-
-
 
 
 /* zona footer */
