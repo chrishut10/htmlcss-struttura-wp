@@ -1,0 +1,88 @@
+
+/* regole generali css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container{
+  margin: 20px 20%;
+}
+
+/* parte header */
+
+header{
+  height: 60px;
+  /* debug */
+  background-color: pink;
+}
+
+main{
+  background-color: white;
+}
+
+#block{
+  background-color: blue;
+}
+
+.blocco{
+  margin-top: 20px;
+  /* debug */
+  background-color: lightyellow;
+  height: 200px;
+
+}
+
+.sezione1{
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+  /* debug */
+  background-color: skyblue;
+  height: 50px;
+}
+
+.sezione2 {
+  float: left;
+  width: 25%;
+  margin-bottom: 10px;
+  /* debug */
+  background-color: skyblue;
+  height: 250px;
+}
+
+.sezione3{
+  width: 45%;
+  margin: 0 11px;
+  float: left;
+  /* debug */
+  background-color: skyblue;
+  height: 250px;
+}
+
+.sezione4{
+  width: 25%;
+  margin: auto;
+  float: left;
+  /* debug */
+  background-color: skyblue;
+  height: 250px;
+}
+
+
+
+
+/* zona footer */
+footer{
+  margin: 5px 0;
+  height: 40px;
+  /* debug */
+  background-color: darkviolet;
+}
